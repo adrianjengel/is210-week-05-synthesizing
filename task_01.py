@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Task 01 WK5 sythesiszing - Converting Fahrenheit to Celcius and Kelvin."""
+"""Task 01 WK5 sythesiszing - Converting fahrenheit to celsius and kelvin."""
 
 import decimal
 ABSOLUTE_DIFFERENCE = decimal.Decimal('273.15')
 
 
 def fahrenheit_to_celsius(degrees):
-    """A function to convert fahrenheit to celcius.
+    """A function to convert fahrenheit to celsius.
 
     The input will be converted from fahrenheit to celcious and returned
     as a decimal.
@@ -15,7 +15,7 @@ def fahrenheit_to_celsius(degrees):
     Args:
         degrees (int): A value in fahrenheit.
     Returns:
-        Returns the temperature in celcius as a decimal.
+        Returns the temperature in celsius as a decimal.
 
     Example:
 
