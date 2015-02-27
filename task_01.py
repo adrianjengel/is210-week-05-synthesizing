@@ -22,9 +22,6 @@ def fahrenheit_to_celsius(degrees):
     >>> fahrenheit_to_celsius(212)
     Decimal('100')
 
-    >>> fahrenheit_to_kelvin(212)
-    Decimal('373.15')
-
     """
     return ((decimal.Decimal(degrees) - 32) * 5) / 9
 
